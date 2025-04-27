@@ -8,6 +8,10 @@ description: "In Traefik Proxy's HTTP middleware, RedirectRegex redirecting clie
 Redirecting the Client to a Different Location
 {: .subtitle }
 
+!!! warning
+
+    If you have a global entrypoint redirection configured, it will be applied alone without applying more `RedirectRegx`rules.
+
 <!--
 TODO: add schema
 -->
